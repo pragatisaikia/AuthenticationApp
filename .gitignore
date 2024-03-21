@@ -4,7 +4,7 @@
 client/node_modules
 server/node_modules
 server/config.js
-client/.env
+client/.ENV
 server/.env
 node_modules
 /.pnp
