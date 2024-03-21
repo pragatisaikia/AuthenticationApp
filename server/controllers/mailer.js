@@ -14,6 +14,7 @@ let nodeconfig = {
     }
 }
 
+
 let transporter = nodemailer.createTransport(nodeconfig);
 
 let MailGenerator = new Mailgen({
