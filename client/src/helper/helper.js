@@ -1,9 +1,9 @@
 import axios from 'axios'
 
-axios.defaults.baseURL = process.env.REACT_APP_SERVER_DOMAIN
-/**make API requests */
+axios.defaults.baseURL = 'http://localhost:8080'/**make API requests */
 
 /**authenticate function */
+
 
 export async function authenticate(username){
     try {
